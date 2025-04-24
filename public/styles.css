@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.product-item img {
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+}
